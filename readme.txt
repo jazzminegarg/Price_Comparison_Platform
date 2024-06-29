@@ -1,4 +1,4 @@
-[IRIS PRICE COMPARISON WEBSITE](https://price-comparison-platform.onrender.com/)
+[ReadMe](readme.com)
 
 to import data from js files-->
 cd server
