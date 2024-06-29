@@ -1,5 +1,3 @@
-
-
 to import data from js files-->
 cd server
 npm run data:import
