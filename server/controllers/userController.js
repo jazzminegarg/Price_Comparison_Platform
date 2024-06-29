@@ -85,7 +85,7 @@ const forgotPassword = asyncHandler(async (req, res) => {
   }
   const resetToken = user.createPasswordResetToken()
   user.save()
-  const resetUrl = `https://price-comparison-platform.onrender.com/reset-password/${resetToken}`
+  const resetUrl = `${req.protocol}://localhost:3000/reset-password/${resetToken}`
 
   const message = `Forgot Password? Click on this this link to reset your Password: ${resetUrl}`
   try {
