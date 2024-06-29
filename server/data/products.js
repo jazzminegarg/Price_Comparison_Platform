@@ -158,5 +158,6 @@ const products=[
         "category": "eyeliner",
         
     },
+    
 ]
 export default products

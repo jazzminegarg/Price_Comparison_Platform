@@ -12,7 +12,7 @@ export default function ProfileScreen() {
     const [email, setEmail] = useState(userInfo.email)
     const [password, setPassword] = useState("")
     const [confirmPassword, setConfirmPassword] = useState("")
-    const [updateUser, { isLoading: isUpdating }] = useUpdateUserProfileMutation()
+    const [User, { isLoading: isUpdating }] = useUpdateUserProfileMutation()
     const handleUpdateProfile = async e => {
         e.preventDefault()
         if (password !== confirmPassword) {
